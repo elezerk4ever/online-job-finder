@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <script src="./js/index.js" defer></script>
+    <script src="./js/all.min.js" defer></script>
+    <title>
+        Online Job Finder
+    </title>
+</head>
+<body>
+    <div id="adder" onclick="modalShower()">
+        <a href="#" >
+            <i class="fa fa-plus"></i>
+        </a>
+    </div>
+    <header>
+        <div id="logo">
+            <h1>E<span>z</span>Jobs</h1>
+            <span>The place where easily to find job.</span>
+        </div>
+        <form action="#">
+            
+            <input type="text" placeholder="Web Developer" id="search">
+            <button>Search</button>
+        </form>
+    </header>
+    <nav>
+        <ul>
+            <li class="active">
+                <a href="#">
+                    <i class="fa fa-home"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="#">Services</a>
+            </li>
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <div class="card">
+            <div class="card-header">
+                Java developer
+            </div>
+            <div class="card-body">
+                <div class="card-body-header">
+                    <div>
+                        <strong>Company : </strong> ABC Inc.
+                    </div>
+                    <div>
+                        <strong>
+                            Vacancy :
+                        </strong>
+                        100
+                    </div>
+                    <div>
+                        <strong>Salary :</strong>
+                        25k
+                    </div>
+                    <div>
+                        <strong>Location : </strong> Tarlac city
+                    </div>
+                </div>
+                <strong>Details</strong>
+                <div class="card-body-details">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident voluptas molestiae quis corporis harum eaque cupiditate neque tenetur eius architecto, praesentium a ipsum eveniet porro assumenda. Optio quis doloribus cumque? Omnis vero quidem assumenda voluptatem, tempora consequuntur necessitatibus veniam, recusandae eius aliquid quasi sapiente similique aspernatur pariatur nulla perspiciatis inventore.
+                </div>
+            </div>
+            <div class="card-footer">
+                <a href="#">Apply now!</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                Game developer
+            </div>
+            <div class="card-body">
+                <div class="card-body-header">
+                    <div>
+                        <strong>Company : </strong> ABC Inc.
+                    </div>
+                    <div>
+                        <strong>
+                            Vacancy :
+                        </strong>
+                        100
+                    </div>
+                    <div>
+                        <strong>Salary :</strong>
+                        25k
+                    </div>
+                    <div>
+                        <strong>Location : </strong> Tarlac city
+                    </div>
+                </div>
+                <strong>Details</strong>
+                <div class="card-body-details">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident voluptas molestiae quis corporis harum eaque cupiditate neque tenetur eius architecto, praesentium a ipsum eveniet porro assumenda. Optio quis doloribus cumque? Omnis vero quidem assumenda voluptatem, tempora consequuntur necessitatibus veniam, recusandae eius aliquid quasi sapiente similique aspernatur pariatur nulla perspiciatis inventore.
+                </div>
+            </div>
+            <div class="card-footer">
+                <a href="#">Apply now!</a>
+            </div>
+        </div>
+        
+        
+        
+    </main>
+    <ul class="pagination">
+        <li>
+            <a href="#">Prev</a>
+        </li>
+        <li  class="active">
+            <a href="#" style="color: white;">1</a>
+        </li>
+        <li>
+            <a href="#">2</a>
+        </li>
+        <li>
+            <a href="#">3</a>
+        </li>
+        <li>
+            <a href="#">Next</a>
+        </li>
+    </ul>
+    <footer>
+        <div>
+            <h3>Ezjobs Inc.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, inventore dignissimos ipsam sed accusamus quos accusantium consequatur maiores eum enim vitae nemo hic eligendi non rerum mollitia? Totam, necessitatibus suscipit.</p>
+        </div>
+        <div>
+            <h3>Sponsors</h3>
+            <ul>
+                <li>
+                    <a href="#">sponsor link</a>
+                </li>
+                <li>
+                    <a href="#">sponsor link</a>
+                </li>
+                <li>
+                    <a href="#">sponsor link</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h3>
+                Supports
+            </h3>
+            <ul>
+                <li>
+                    <a href="#">Support link</a>
+                </li>
+                <li>
+                    <a href="#">Support link</a>
+                </li>
+                <li>
+                    <a href="#">Support link</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <div class="modal" id="showme">
+        <div class="modal-box">
+            <div class="modal-box-header">
+                Enter job Details <a href="#" onclick="modalShower()"><i class="fa fa-times"></i></a>
+            </div>
+            <div class="modal-box-body">
+                <form action="#">
+                    <div>
+                        Job Title
+                    <input type="text" placeholder="web developer">
+                    </div>
+                    <div>
+                        Vacancy
+                    <input type="text">
+                    </div>
+                    <div>
+                        Location
+                    <input type="text">
+                    </div>
+                    <div>
+                        Salary
+                    <input type="text">
+                    </div>
+                    <div>
+                        Details
+                        <textarea></textarea>
+                    </div>
+                    <div>
+                        Your Email
+                        <input type="text">
+                    </div>
+                    <button>Add Job</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
